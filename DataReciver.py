@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 # === CONFIG ===
 GITHUB_TOKEN = "HANOICITYTOKEN"
-REPO = "iNeedFreedom"  # e.g. phongdang/MyGameRepo
-FILE_PATH = "HaNoiCity_DuLieu"  # path inside repo
+REPO = "phongdang/HaNoiCity_Data"
+FILE_PATH = "HaNoiCity_DuLieu.json" # path inside repo
 
 API_URL = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 HEADERS = {
